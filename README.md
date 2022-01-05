@@ -2,6 +2,7 @@
 Google In-app Billing Class
 
 使用方法：
+```Java
 JSONObject json = new JSONObject();
 JSONArray jArray= new JSONArray(); //商品資料
 jArray.put("product1");
@@ -52,3 +53,4 @@ buy.setOnBuyLister(new BuyUtil.BuyLister() {
 });
 //都準備好後執行
 buy.init();
+```
